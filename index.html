@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .container {
+        width: 50%;
+        margin: 2rem auto;
+      }
+      label {
+        font-size: 20px;
+      }
+      #productName {
+        padding: 10px 1rem;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid grey;
+      }
+      #adding {
+        padding: 10px 1rem;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: indigo;
+        color: white;
+        border: none;
+      }
+      h1 {
+        font-size: 25px;
+        color: gray;
+      }
+      .item {
+        background-color: black;
+        color: white;
+        width: 300px;
+        padding: 1rem;
+        border-radius: 5px;
+        list-style-type: disc;
+      }
+      .delete {
+        padding: 10px 1rem;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+      }
+      .tarshbin {
+        width: 300px;
+        padding: 1rem;
+        color: white;
+        background-color: rgb(51, 49, 49);
+        border-radius: 5px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="product.com">
+        <label for="productName">What to buy:</label
+        ><input type="text" id="productName" placeholder="add new product" />
+        <input type="button" id="adding" value="add" />
+      </form>
+      <h2>yangi mahsulot:</h2>
+      <ul class="item"></ul>
+      <h2>O'chirilgan mahsulot:</h2>
+      <ul class="tarshbin"></ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
